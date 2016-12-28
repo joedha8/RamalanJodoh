@@ -5,7 +5,6 @@
     android:weightSum="100"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F2B2A7"
     tools:context="com.kudkud32.ramalanjodoh.MainActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -16,7 +15,6 @@
             android:layout_height="wrap_content"
             android:src="@drawable/nama2"
             android:layout_weight="1"
-            android:background="#e91e63"
             android:layout_alignParentTop="true"
             android:layout_alignParentLeft="true"
             android:layout_alignParentStart="true" />

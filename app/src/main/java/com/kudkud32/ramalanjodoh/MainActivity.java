@@ -32,7 +32,8 @@ public class MainActivity extends AppCompatActivity {
         ramal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(MainActivity.this,"Coming Soon",Toast.LENGTH_SHORT).show();
+                Intent intent1 = new Intent(MainActivity.this, zodiak.class);
+                startActivity(intent1);
             }
         });
         credit.setOnClickListener(new View.OnClickListener() {
