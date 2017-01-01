@@ -5,4 +5,5 @@
     <color name="colorAccent">#F48FB1</color>
     <color name="background">#F8BBD0</color>
     <color name="textSecondary">#a5a2a2</color>
+    <color name="textHitam">#000000</color>
 </resources>
