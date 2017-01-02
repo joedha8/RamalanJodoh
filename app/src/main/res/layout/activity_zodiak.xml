@@ -21,7 +21,8 @@
             android:layout_height="wrap_content"
             android:hint="Masukkan Tanggal lahir anda"
             android:textColorHint="@color/textHitam"
-            android:id="@+id/tgl_zod"/>
+            android:id="@+id/tgl_zod"
+            android:focusable="false"/>
     </android.support.design.widget.TextInputLayout>
     <Button
         android:layout_width="match_parent"

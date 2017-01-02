@@ -173,46 +173,8 @@ public class Hasil extends AppCompatActivity {
                     b, "Title", null);
             Uri imageUri =  Uri.parse(path);
             sharingIntent.putExtra(Intent.EXTRA_STREAM, imageUri);
-            //sharingIntent.putExtra(android.content.Intent.EXTRA_SUBJECT, Mulai.nama1.getText().toString() + " dengan " + Mulai.nama2.getText().toString() + " memiliki tingkat kecocokan sampai " + hasil + "%" + "\nBagaimana dengan mu?");
             sharingIntent.putExtra(android.content.Intent.EXTRA_TEXT, shareBody);
             startActivity(Intent.createChooser(sharingIntent, "Share via"));
-            /*if(counter == 0) {
-                //save the screenshot
-                View rootView = findViewById(android.R.id.content).getRootView();
-                rootView.setDrawingCacheEnabled(true);
-                // creates immutable clone of image
-                image = Bitmap.createBitmap(rootView.getDrawingCache());
-                // destroy
-                rootView.destroyDrawingCache();
-
-                //share dialog
-                AlertDialog.Builder shareDialog = new AlertDialog.Builder(this);
-                shareDialog.setTitle("Share Screen Shot");
-                shareDialog.setMessage("Share image to Facebook?");
-                shareDialog.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        //share the image to Facebook
-                        SharePhoto photo = new SharePhoto.Builder().setBitmap(image).build();
-                        SharePhotoContent content = new SharePhotoContent.Builder().addPhoto(photo).build();
-                        shareButton.setShareContent();
-                        counter = 1;
-                        shareButton.performClick();
-                    }
-                });
-                shareDialog.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-                    public void onClick(DialogInterface dialog, int which) {
-                        dialog.cancel();
-                    }
-                });
-                shareDialog.show();
-            }
-            else {
-                counter = 0;
-                //shareButton.setShareContent();
-            }*/
-            //share();
-            //Toast.makeText(Hasil.this,"Coming Soon",Toast.LENGTH_SHORT).show();
-            //return true;
         }
 
         if (id == android.R.id.home){

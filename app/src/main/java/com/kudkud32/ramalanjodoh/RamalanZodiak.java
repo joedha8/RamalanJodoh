@@ -1,8 +1,8 @@
 package com.kudkud32.ramalanjodoh;
 
 import android.content.Intent;
-import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -10,10 +10,12 @@ import android.widget.TextView;
 
 import com.kudkud32.ramalanjodoh.model.GlobalMasuk;
 import com.kudkud32.ramalanjodoh.model.Masuk;
-import com.kudkud32.ramalanjodoh.model.Zodiak;
+import com.wdullaer.materialdatetimepicker.date.DatePickerDialog;
+
+import java.util.Calendar;
 
 
-public class RamalanZodiak extends AppCompatActivity {
+public class RamalanZodiak extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     private EditText nama,tglLahir;
     private Button ok;
     private TextView coba1,coba2;
@@ -28,6 +30,20 @@ public class RamalanZodiak extends AppCompatActivity {
         coba1 =(TextView)findViewById(R.id.coba1);
         coba2 =(TextView)findViewById(R.id.coba2);
 
+        tglLahir.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Calendar calendar=Calendar.getInstance();
+                DatePickerDialog datePickerDialog=DatePickerDialog.newInstance(
+                        RamalanZodiak.this,
+                        calendar.get(Calendar.YEAR),
+                        calendar.get(Calendar.MONTH),
+                        calendar.get(Calendar.DAY_OF_MONTH)
+                );
+                datePickerDialog.show(getFragmentManager(), "DatePicker Dialog");
+            }
+        });
+
         ok.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -40,5 +56,11 @@ public class RamalanZodiak extends AppCompatActivity {
             }
         });
 
+    }
+
+    @Override
+    public void onDateSet(DatePickerDialog view, int year, int monthOfYear, int dayOfMonth) {
+        String tanggal=dayOfMonth+"-"+(monthOfYear+1)+"-"+year;
+        tglLahir.setText(tanggal);
     }
 }
