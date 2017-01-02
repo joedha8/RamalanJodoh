@@ -34,7 +34,7 @@
         <activity
             android:name=".Hasil"
             android:screenOrientation="portrait" />
-        <activity android:name=".zodiak" />
+        <activity android:name=".RamalanZodiak" />
         <activity android:name=".Detail"></activity>
     </application>
 

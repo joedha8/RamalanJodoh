@@ -3,9 +3,41 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="10dp">
-    <android.support.v7.widget.RecyclerView
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan nama anda"
+            android:textColorHint="@color/textHitam"
+            android:id="@+id/nama_zod"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Masukkan Tanggal lahir anda"
+            android:textColorHint="@color/textHitam"
+            android:id="@+id/tgl_zod"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/recyclerview">
-    </android.support.v7.widget.RecyclerView>
+        android:text="OK"
+        android:id="@+id/ramal_zod"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="adsadasad"
+        android:textColor="@color/textHitam"
+        android:id="@+id/coba1"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="dadsa"
+        android:textColor="@color/textHitam"
+        android:id="@+id/coba2"/>
 </LinearLayout>

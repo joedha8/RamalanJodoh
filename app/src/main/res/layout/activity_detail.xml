@@ -21,7 +21,7 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Umum"
+        android:text="Data diri"
         android:paddingLeft="10dp"
         android:textColor="@color/textHitam"
         android:textSize="20dp"/>
@@ -36,9 +36,30 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Keterangan"
+        android:text="Nama :"
         android:textColor="@color/textHitam"
-        android:id="@+id/umum"
+        android:id="@+id/namaMu"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lahir :"
+        android:textColor="@color/textHitam"
+        android:id="@+id/lahirMu"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Umur :"
+        android:textColor="@color/textHitam"
+        android:id="@+id/umur"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zodiak :"
+        android:textColor="@color/textHitam"
+        android:id="@+id/zodiakMu"
         android:padding="10dp"/>
     <LinearLayout
         android:layout_width="match_parent"
@@ -51,7 +72,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Percintaan"
+            android:text="Ramalan Harian"
             android:paddingLeft="10dp"
             android:textColor="@color/textHitam"
             android:textSize="20dp"/>
@@ -66,39 +87,29 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Keterangan"
-        android:padding="10dp"
+        android:text="Umum :"
         android:textColor="@color/textHitam"
-        android:id="@+id/percintaan"/>
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/ic_money"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:paddingLeft="10dp"
-            android:text="Keuangan"
-            android:textColor="@color/textHitam"
-            android:textSize="20dp"/>
-    </LinearLayout>
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0.5dp"
-        android:background="@color/textHitam"
-        android:layout_marginBottom="10dp"
-        android:layout_marginTop="10dp"
-        ></View>
+        android:id="@+id/umum"
+        android:padding="10dp"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Keterangan"
-        android:padding="10dp"
+        android:text="Percintaan Single :"
         android:textColor="@color/textHitam"
-        android:id="@+id/keuangan"/>
-
+        android:id="@+id/percintaan"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Percintaan Couple :"
+        android:textColor="@color/textHitam"
+        android:id="@+id/percintaan2"
+        android:padding="10dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Karir dan Ke Uangan :"
+        android:textColor="@color/textHitam"
+        android:id="@+id/karir"
+        android:padding="10dp"/>
 </LinearLayout>

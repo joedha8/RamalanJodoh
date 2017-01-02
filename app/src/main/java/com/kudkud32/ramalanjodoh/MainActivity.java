@@ -5,7 +5,6 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     private ImageButton mulai, credit, keluar, ramal;
@@ -32,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         ramal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent1 = new Intent(MainActivity.this, zodiak.class);
+                Intent intent1 = new Intent(MainActivity.this, RamalanZodiak.class);
                 startActivity(intent1);
             }
         });
