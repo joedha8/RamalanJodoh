@@ -18,7 +18,6 @@ import java.util.Calendar;
 public class RamalanZodiak extends AppCompatActivity implements DatePickerDialog.OnDateSetListener {
     private EditText nama,tglLahir;
     private Button ok;
-    private TextView coba1,coba2;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -27,8 +26,6 @@ public class RamalanZodiak extends AppCompatActivity implements DatePickerDialog
         nama =(EditText)findViewById(R.id.nama_zod);
         tglLahir=(EditText)findViewById(R.id.tgl_zod);
         ok =(Button)findViewById(R.id.ramal_zod);
-        coba1 =(TextView)findViewById(R.id.coba1);
-        coba2 =(TextView)findViewById(R.id.coba2);
 
         tglLahir.setOnClickListener(new View.OnClickListener() {
             @Override

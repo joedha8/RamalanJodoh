@@ -8,7 +8,6 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    android:background="#F2B2A7"
     tools:context="com.kudkud32.ramalanjodoh.Credit">
     <ScrollView
         android:layout_width="fill_parent"

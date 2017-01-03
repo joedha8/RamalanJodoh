@@ -28,17 +28,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="OK"
+        android:background="@color/colorAccent"
         android:id="@+id/ramal_zod"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="adsadasad"
-        android:textColor="@color/textHitam"
-        android:id="@+id/coba1"/>
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="dadsa"
-        android:textColor="@color/textHitam"
-        android:id="@+id/coba2"/>
 </LinearLayout>

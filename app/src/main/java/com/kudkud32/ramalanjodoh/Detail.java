@@ -43,14 +43,14 @@ public class Detail extends AppCompatActivity {
             @Override
             public void onResponse(Call<Zodiak> call, Response<Zodiak> response) {
 
-                nama.setText(response.body().getNama());
-                tgl.setText(response.body().getLahir());
-                umur.setText(response.body().getUsia());
-                zodiak.setText(response.body().getZodiak());
-                umum.setText(response.body().getRamalan().getHarian().getUmum());
-                percintaan.setText(response.body().getRamalan().getHarian().getPercintaan().getSingle());
-                percintaan2.setText(response.body().getRamalan().getHarian().getPercintaan().getCouple());
-                karir.setText(response.body().getRamalan().getHarian().getKarirKeuangan());
+                nama.setText("Nama :" +response.body().getNama());
+                tgl.setText("Lahir :"+response.body().getLahir());
+                umur.setText("Umur :"+response.body().getUsia());
+                zodiak.setText("Zodiak"+response.body().getZodiak());
+                umum.setText("Umur :"+response.body().getRamalan().getHarian().getUmum());
+                percintaan.setText("Percintaan(Single) :"+response.body().getRamalan().getHarian().getPercintaan().getSingle());
+                percintaan2.setText("Percintaan(Couple) :"+response.body().getRamalan().getHarian().getPercintaan().getCouple());
+                karir.setText("Karir dan Keuangan"+response.body().getRamalan().getHarian().getKarirKeuangan());
             }
 
             @Override
