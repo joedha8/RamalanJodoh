@@ -34,14 +34,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="3"
                 android:layout_gravity="center">
-                <ImageButton
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:clickable="true"
                     android:src="@drawable/kalkulasi"
                     android:id="@+id/mulai" />
-                <ImageButton
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:clickable="true"
                     android:src="@drawable/zodiak"
                     android:id="@+id/rmlhr"
                     android:layout_marginLeft="10dp"/>
@@ -53,15 +55,17 @@
                 android:layout_marginTop="10dp"
                 android:orientation="horizontal"
                 android:layout_gravity="center">
-                <ImageButton
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/tentang"
+                    android:clickable="true"
                     android:id="@+id/credit"/>
-                <ImageButton
+                <ImageView
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:src="@drawable/keluar"
+                    android:clickable="true"
                     android:id="@+id/keluar"
                     android:layout_marginLeft="10dp"/>
             </LinearLayout>
