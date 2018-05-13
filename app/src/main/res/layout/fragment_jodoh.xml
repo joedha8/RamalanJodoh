@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     android:padding="8dp"
     android:id="@+id/constraint_jodoh"
-    tools:context="com.kudkud32.ramalanjodoh.view.JodohFragment">
+    tools:context="com.kudkud32.ramalanjodoh.view.fragment.JodohFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView

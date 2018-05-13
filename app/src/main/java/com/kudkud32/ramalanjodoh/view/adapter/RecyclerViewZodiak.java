@@ -1,4 +1,4 @@
-package com.kudkud32.ramalanjodoh.adapter;
+package com.kudkud32.ramalanjodoh.view.adapter;
 
 import android.content.Context;
 import android.support.v7.widget.RecyclerView;
@@ -7,7 +7,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.kudkud32.ramalanjodoh.R;
-import com.kudkud32.ramalanjodoh.view.RamalanFragment;
 
 /**
  * Created by joedhaalzelvin on 12/05/18.

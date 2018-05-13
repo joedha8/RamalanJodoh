@@ -4,7 +4,7 @@
     android:layout_height="match_parent"
     android:padding="16dp"
     android:id="@+id/constraint_credit"
-    tools:context="com.kudkud32.ramalanjodoh.view.CreditFragment">
+    tools:context="com.kudkud32.ramalanjodoh.view.fragment.CreditFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <ImageView

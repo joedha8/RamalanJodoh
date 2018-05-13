@@ -1,4 +1,4 @@
-package com.kudkud32.ramalanjodoh.view;
+package com.kudkud32.ramalanjodoh.view.fragment;
 
 
 import android.os.Bundle;
@@ -10,7 +10,7 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.kudkud32.ramalanjodoh.R;
-import com.kudkud32.ramalanjodoh.adapter.RecyclerViewZodiak;
+import com.kudkud32.ramalanjodoh.view.adapter.RecyclerViewZodiak;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;

@@ -1,4 +1,4 @@
-package com.kudkud32.ramalanjodoh.view;
+package com.kudkud32.ramalanjodoh.view.fragment;
 
 
 import android.os.Bundle;
@@ -12,10 +12,10 @@ import com.kudkud32.ramalanjodoh.R;
 /**
  * A simple {@link Fragment} subclass.
  */
-public class JodohFragment extends Fragment {
+public class CreditFragment extends Fragment {
 
 
-    public JodohFragment() {
+    public CreditFragment() {
         // Required empty public constructor
     }
 
@@ -24,7 +24,7 @@ public class JodohFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_jodoh, container, false);
+        return inflater.inflate(R.layout.fragment_credit, container, false);
     }
 
 }
