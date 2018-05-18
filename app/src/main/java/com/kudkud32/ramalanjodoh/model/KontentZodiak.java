@@ -3,7 +3,7 @@ package com.kudkud32.ramalanjodoh.model;
 
 import com.google.gson.annotations.SerializedName;
 
-public class Kontent {
+public class KontentZodiak {
 
     @SerializedName("kontent")
     private String mKontent;

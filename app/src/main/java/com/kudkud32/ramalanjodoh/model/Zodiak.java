@@ -9,7 +9,7 @@ public class Zodiak {
     @SerializedName("copyright")
     private String mCopyright;
     @SerializedName("data")
-    private List<Kontent> mData;
+    private List<KontentZodiak> mData;
 
     public String getCopyright() {
         return mCopyright;
@@ -19,11 +19,11 @@ public class Zodiak {
         mCopyright = copyright;
     }
 
-    public List<Kontent> getData() {
+    public List<KontentZodiak> getData() {
         return mData;
     }
 
-    public void setData(List<Kontent> data) {
+    public void setData(List<KontentZodiak> data) {
         mData = data;
     }
 

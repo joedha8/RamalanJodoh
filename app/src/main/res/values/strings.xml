@@ -9,4 +9,14 @@
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="pegat">Jika hasil yang keluar adalah PEGAT, akan menemui masalah, ntah masalah dari segi ekonomi, kekuasaan, selingkuh yang berujung perceraian</string>
+    <string name="ratu">Jika hasil yang keluar adalah RATU itu artinya JODOH BANGET. Di hormati tetangga dan orang lain. Banyak yang iri dengan keharmonisan kalian</string>
+    <string name="jodoh">Jika hasil yang keluar adalah JODOH artinya kamu dengan pasanganmu bisa sama sama menerima kelebihan dan kekurangan. Rumah tangga lancar hingga tua</string>
+    <string name="topo">Jika hasil yang keluar adalah TOPO awalnya akan terasa susah/sulit. Namun, akan berakhir bahagia. Pada awalnya akan banyak masalah, entah dari segi ekonomi atau yang lainnya. Namun jika sudah memiliki anak dan sudah lama berumah tangga, akan sejahtera</string>
+    <string name="tinari">Jika hasil yang keluar adalah TINARI ini artinya akan menemukan kebahagiaan. Mudah mencari rejeki dan tidak akan kekurangan. Akan banyak menemukan keberuntungan saat berumah tangga</string>
+    <string name="padu">Jika hasil yang keluar adalah PADU ini artinya akan sering bertengkar. Namun, walaupun setiap hari bertengkar tidak akan sampai bercerai. Makanya setiap hari bertengkar entah itu masalah apa saja</string>
+    <string name="sujanan">Jika hasil yang keluar adalah SUJANAN ini artinya sering bertengkar dan banyak masalah perselingkuhan. Entah dari yang laki-laki ataupun perempuan. Atau justru keduanya sama-sama selingkuh</string>
+    <string name="pesthi">Jika hasil yang keluar adalah PESTHI rumah tangga akan rukun, tentra, harmonis sampai tua. Walaupun ada masalah, tidak akan merusak keharmonisan</string>
+
 </resources>

@@ -1,5 +1,8 @@
 package com.kudkud32.ramalanjodoh.service;
 
+import com.kudkud32.ramalanjodoh.model.DataWeton;
+import com.kudkud32.ramalanjodoh.model.KontentZodiak;
+
 /**
  * Created by Kristiawan on 07/03/18.
  *
@@ -18,7 +21,11 @@ public class ApiService {
         return BaseApiServiceHolder.INSTANCE;
     }
 
-//    public UserService getUserService(){
-//        return UserService.getInstance();
-//    }
+    public UserService getUserService(){
+        return UserService.getInstance();
+    }
+
+    public WetonService getWetonService(){
+        return WetonService.getInstance();
+    }
 }
