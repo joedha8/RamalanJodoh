@@ -21,7 +21,7 @@ public class RecyclerViewZodiak extends RecyclerView.Adapter<RecyclerViewZodiak.
 
     @Override
     public ViewHolder onCreateViewHolder(ViewGroup parent, int viewType) {
-        return new RecyclerViewZodiak.ViewHolder(LayoutInflater.from(context).inflate(R.layout.list_zodiak, parent, false));
+        return new RecyclerViewZodiak.ViewHolder(LayoutInflater.from(context).inflate(R.layout.list_ramalan, parent, false));
     }
 
     @Override
@@ -34,7 +34,7 @@ public class RecyclerViewZodiak extends RecyclerView.Adapter<RecyclerViewZodiak.
         return 10;
     }
 
-    class ViewHolder extends RecyclerView.ViewHolder{
+    public static class ViewHolder extends RecyclerView.ViewHolder{
 
         public ViewHolder(View itemView) {
             super(itemView);
