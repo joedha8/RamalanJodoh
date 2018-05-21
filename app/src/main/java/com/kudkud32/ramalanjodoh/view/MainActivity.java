@@ -9,7 +9,7 @@ import android.view.MenuItem;
 
 import com.kudkud32.ramalanjodoh.R;
 import com.kudkud32.ramalanjodoh.view.fragment.CreditFragment;
-import com.kudkud32.ramalanjodoh.view.fragment.JodohFragment;
+import com.kudkud32.ramalanjodoh.view.fragment.Jodoh.JodohFragment;
 import com.kudkud32.ramalanjodoh.view.fragment.RamalanFragment;
 
 public class MainActivity extends AppCompatActivity {
